@@ -35,11 +35,12 @@ public class YHDBMapExcelReader {
 		try {
 			YHDBMapExcelReader excelReader = new YHDBMapExcelReader();
 			// 对读取Excel表格内容测试
-			String filePath=YHDBMapExcelReader.class.getResource("")+"/数据库映射表.xls";
+			String filePath=YHDBMapExcelReader.class.getResource("")+"/dbmapping.xls";
 //			System.out.println(filePath);
 			InputStream is2 = new FileInputStream(filePath.substring(5,filePath.length()));
 //			InputStream is2 = new FileInputStream(filePath.substring(6,filePath.length()));
 			Map<Integer, String> map = excelReader.readExcelContent(is2);	
+			System.out.println("==========filePath==="+filePath);
 		} catch (FileNotFoundException e) {
 			System.out.println("未找到指定路径的文件!");
 			e.printStackTrace();
@@ -234,7 +235,7 @@ public class YHDBMapExcelReader {
 		try {
 			YHDBMapExcelReader excelReader = new YHDBMapExcelReader();
 			// 对读取Excel表格内容测试
-			InputStream is2 = new FileInputStream("数据库映射表.xls");
+			InputStream is2 = new FileInputStream("dbmapping.xls");
 			Map<Integer, String> map = excelReader.readExcelContent(is2);
 			System.out.println("获得Excel表格的内容:");
 			for (int i = 1; i <= map.size(); i++) {
@@ -255,7 +256,7 @@ public class YHDBMapExcelReader {
 	public static void main(String[] args) {
 //		try {
 //			// 对读取Excel表格标题测试
-//			InputStream is = new FileInputStream("数据库映射表.xls");
+//			InputStream is = new FileInputStream("dbmapping.xls");
 //			YHDBMapExcelReader excelReader = new YHDBMapExcelReader();
 //			String[] title = excelReader.readExcelTitle(is);
 //			System.out.println("获得Excel表格的标题:");
@@ -264,7 +265,7 @@ public class YHDBMapExcelReader {
 //			}
 //
 //			// 对读取Excel表格内容测试
-//			InputStream is2 = new FileInputStream("数据库映射表.xls");
+//			InputStream is2 = new FileInputStream("dbmapping.xls");
 //			Map<Integer, String> map = excelReader.readExcelContent(is2);
 //			System.out.println("获得Excel表格的内容:");
 //			for (int i = 1; i <= map.size(); i++) {
@@ -304,7 +305,7 @@ public class YHDBMapExcelReader {
 		try {
 			YHDBMapExcelReader excelReader = new YHDBMapExcelReader();
 			// 对读取Excel表格内容测试
-			InputStream is2 = new FileInputStream("数据库映射表.xls");
+			InputStream is2 = new FileInputStream("dbmapping.xls");
 			Map<Integer, String> map = excelReader.readExcelContent(is2);
 			System.out.println("获得Excel表格的内容:");
 			for (int i = 1; i <= map.size(); i++) {
