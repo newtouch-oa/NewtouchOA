@@ -43,7 +43,7 @@
      if (rtJson.rtMsrg=='1'){
       alert('注册成功');
       var url = contextPath + ("/yhindex.jsp" || "/core/frame/webos/index.jsp");
-      location.href = "/yh/yhindex.jsp";
+      location.href = "/newtouchOA/yhindex.jsp";
  }
     }
     //账号验证，账号是否被注册

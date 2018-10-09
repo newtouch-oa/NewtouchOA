@@ -178,7 +178,7 @@ function addRow(data , i){
 	  if(data.parentId!=0) {
           td2 = td2 + "<br><hr width='95%'><b>[原贴]</b><br>" + data.content1;
       }
-	  var td3 = "<a href=/yh/core/funcs/news/show/relay.jsp?parentId=" + data.sqlcommentId + "&newsId="+newsId+"&userName="+userLoginName+"&anonymityYn="+anonymityYn+" style='text-decoration:underline'>回复本贴</a>&nbsp;&nbsp;&nbsp;";
+	  var td3 = "<a href=/newtouchOA/core/funcs/news/show/relay.jsp?parentId=" + data.sqlcommentId + "&newsId="+newsId+"&userName="+userLoginName+"&anonymityYn="+anonymityYn+" style='text-decoration:underline'>回复本贴</a>&nbsp;&nbsp;&nbsp;";
       if(userSeqId==data.userId || <%=person.isAdmin()%> || <%=person.isAdminRole()%>) {
          
     	  //td3 = td3 + "<a href='/yh/yh/core/funcs/news/act/YHNewsShowAct/deleteComment.act?commentId="+data.sqlcommentId+"&newsId="+newsId+"' style='text-decoration:underline'>删除</a>&nbsp;&nbsp;&nbsp;"

@@ -496,7 +496,7 @@ function set_year(index){
   window.location="<%=contextPath%>/core/funcs/attendance/personal/selectduty.jsp?year="+year+"&month="+month;
 }
 function remark(seqId){
-  var URL="/yh/core/funcs/attendance/personal/dutyRemark.jsp?seqId=" + seqId ;
+  var URL="/newtouchOA/core/funcs/attendance/personal/dutyRemark.jsp?seqId=" + seqId ;
   myleft=(screen.availWidth-650)/2;
   window.open(URL,"formul_edit","height=250,width=450,status=0,toolbar=no,menubar=no,location=no,scrollbars=no,top=150,left="+myleft+",resizable=yes");
 }

@@ -252,7 +252,7 @@ function staffNameFunc(cellData, recordIndex, columIndex){
   }
 	 }
 
-http://localhost/yh/core/funcs/workflow/flowrun/list/viewgraph/index.jsp?flowId=185
+//http://localhost/yh/core/funcs/workflow/flowrun/list/viewgraph/index.jsp?flowId=185
 function workFlowFuncs(cellData, recordIndex, columIndex){
   var runId = this.getCellData(recordIndex,"runId");
   var flowId = this.getCellData(recordIndex,"flowId");
@@ -260,7 +260,7 @@ function workFlowFuncs(cellData, recordIndex, columIndex){
  
 	return "<a href=\"javascript:Wopen(1,'"+contextPath + "/core/funcs/workflow/flowrun/list/print/index.jsp?runId="+runId+"&flowId="+flowId+"')\">"+runName+"</a>"
 	}
-http://localhost/yh/core/funcs/workflow/flowrun/list/print/index.jsp?runId=1922&flowId=162
+//http://localhost/yh/core/funcs/workflow/flowrun/list/print/index.jsp?runId=1922&flowId=162
 function Wopen(index,url){
 		if(index==0){
 		window.open(url,"","height=500,width=700,status=0,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,modal=yes,dependent=yes,dialog=yes,minimizable=yes",true);

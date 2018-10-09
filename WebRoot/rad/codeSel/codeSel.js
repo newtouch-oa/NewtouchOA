@@ -37,13 +37,13 @@ function selectCode(options) {
     // 单选情况
     //openDialog('/yh/rad/codeSel/indexSingleG.jsp', );
     child = window.showModalDialog(
-            '/yh/rad/codeSel/indexSingleG.jsp',
+            '/newtouchOA/rad/codeSel/indexSingleG.jsp',
             arg,
             'dialogWidth:500px;scroll:auto;dialogHeight:350px;help:no;directories:no;location:no;menubar:no;resizeable:no;status:no;toolbar:no;');
   } else if (sort == "2") {
     // 多选情况
     child = window.showModalDialog(
-            '/yh/rad/codeSel/indexComplexG.jsp',
+            '/newtouchOA/rad/codeSel/indexComplexG.jsp',
             arg,
             'dialogWidth:450px;scroll:auto;dialogHeight:340px;help:no;directories:no;location:no;menubar:no;resizeable:no;status:no;toolbar:no;');
   } else {

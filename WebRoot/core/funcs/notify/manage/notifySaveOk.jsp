@@ -28,15 +28,15 @@ function doInit() {
 //	$('msgInfo').update(msg);
  if(publish == '1'){
    $('msg').update('公告通知发布成功');
-   url = '/yh/core/funcs/notify/manage/notifyList.jsp';
+   url = '/newtouchOA/core/funcs/notify/manage/notifyList.jsp';
  }
  if(publish == '2'){
 	 $('msg').update('公告通知提交审批成功');
-	  url = '/yh/core/funcs/notify/manage/notifyList.jsp';
+	  url = '/newtouchOA/core/funcs/notify/manage/notifyList.jsp';
  }
  if(publish == '0'){
 	 $('msg').update('公告通知保存成功');
-	  url = '/yh/core/funcs/notify/manage/notifyAdd.jsp';
+	  url = '/newtouchOA/core/funcs/notify/manage/notifyAdd.jsp';
  }
  
 }

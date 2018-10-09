@@ -93,7 +93,7 @@ function getCountFunc(cellData, recordIndex, columIndex){
 }
 
 function doDetail(seqId, privName){
-  var URL = "/yh/core/funcs/userpriv/showUsers.jsp?seqId="+seqId+"&privName="+encodeURIComponent(privName);
+  var URL = "/newtouchOA/core/funcs/userpriv/showUsers.jsp?seqId="+seqId+"&privName="+encodeURIComponent(privName);
   //openDialogResize(URL,'800', '500');
   var myleft=(screen.availWidth-500)/2;
   window.open(URL,"read_notify","height=500,width=700,status=0,toolbar=no,menubar=no,location=no,scrollbars=yes,top=150,left="+myleft+",resizable=yes");

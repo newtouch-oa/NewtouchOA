@@ -21,10 +21,10 @@ var pagesLoadUrl = '<%=contextPath%>/yh/rad/velocity/act/YHCodeUtilAct/showField
 var param ="";
 function doInit(){
 var jso = [
-           {title:"实体类配置",onload:showUserInfo.bind(window, "pojo"),useTextContent:true, contentUrl:"/yh/rad/CodeUtil/curd/pojo.jsp", imgUrl:"/yh/raw/ljf/imgs/1news.gif", useIframe:false}
-           ,{title:"ACT类配置",onload:showUserInfo.bind(window, "act"),useTextContent:true, contentUrl:"/yh/rad/CodeUtil/curd/act.jsp", imgUrl:"/yh/raw/ljf/imgs/1news.gif", useIframe:false}
-           ,{title:"页面信息类配置",onload:showUserInfo.bind(window, "curd"),useTextContent:true, contentUrl:"/yh/rad/CodeUtil/curd/pages.jsp", imgUrl:"/yh/raw/ljf/imgs/1news.gif", useIframe:false}
-           ,{title:"字段信息配置",onload:refrcahData.bind(window, "f"),useTextContent:true, contentUrl:"/yh/rad/CodeUtil/curd/fileds.jsp", imgUrl:"/yh/raw/ljf/imgs/1news.gif", useIframe:false}
+           {title:"实体类配置",onload:showUserInfo.bind(window, "pojo"),useTextContent:true, contentUrl:"/newtouchOA/rad/CodeUtil/curd/pojo.jsp", imgUrl:"/yh/raw/ljf/imgs/1news.gif", useIframe:false}
+           ,{title:"ACT类配置",onload:showUserInfo.bind(window, "act"),useTextContent:true, contentUrl:"/newtouchOA/rad/CodeUtil/curd/act.jsp", imgUrl:"/yh/raw/ljf/imgs/1news.gif", useIframe:false}
+           ,{title:"页面信息类配置",onload:showUserInfo.bind(window, "curd"),useTextContent:true, contentUrl:"/newtouchOA/rad/CodeUtil/curd/pages.jsp", imgUrl:"/yh/raw/ljf/imgs/1news.gif", useIframe:false}
+           ,{title:"字段信息配置",onload:refrcahData.bind(window, "f"),useTextContent:true, contentUrl:"/newtouchOA/rad/CodeUtil/curd/fileds.jsp", imgUrl:"/yh/raw/ljf/imgs/1news.gif", useIframe:false}
            ];
 //loadData();
 buildTab(jso, 'contentDiv');

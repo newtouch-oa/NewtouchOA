@@ -99,7 +99,7 @@ function getChildOrEdit(id){////////////////////////////////////////////
 	       window.external.OA_SMS(id,"","SEND_MSG");
 	    }else{
 	      //在浏览器中打开
-	      var url="/yh/core/funcs/message/smsback.jsp?fromId="+id;
+	      var url="/newtouchOA/core/funcs/message/smsback.jsp?fromId="+id;
 	      window.external.OA_SMS(url,"","OPEN_URL");
 	    }
 	    

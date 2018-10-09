@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%
-out.print("JHapparrayinfo[\"JH130\"] = [\"密码网发文\",'/yh/subsys/jtgwjh/sendDoc/indexSend.jsp',\"fa1\"];\n");
-out.print("JHapparrayinfo[\"JH131\"] = [\"密码网收文\",'/yh/subsys/jtgwjh/receiveDoc/index.jsp',\"shou1\"];\n");
-out.print("JHapparrayinfo[\"JH132\"] = [\"密码网查询\",'/yh/subsys/jtgwjh/search/indexSearch.jsp',\"cha1\"];\n");
+out.print("JHapparrayinfo[\"JH130\"] = [\"密码网发文\",'/newtouchOA/subsys/jtgwjh/sendDoc/indexSend.jsp',\"fa1\"];\n");
+out.print("JHapparrayinfo[\"JH131\"] = [\"密码网收文\",'/newtouchOA/subsys/jtgwjh/receiveDoc/index.jsp',\"shou1\"];\n");
+out.print("JHapparrayinfo[\"JH132\"] = [\"密码网查询\",'/newtouchOA/subsys/jtgwjh/search/indexSearch.jsp',\"cha1\"];\n");
 out.print("(function($){\n"+
   "jQuery(document).ready(function($){\n"+
 		"var modules_out = [{\"func_id\":\"JH130\" ,\"id\": \"score\",\"name\":\"密码网发文\"},{\"func_id\":\"JH131\" ,\"id\": \"sale_manage\",\"name\":\"密码网收文\"},{\"func_id\":\"JH132\" ,\"id\": \"attendance_manage\",\"name\":\"密码网查询\"}];\n"+

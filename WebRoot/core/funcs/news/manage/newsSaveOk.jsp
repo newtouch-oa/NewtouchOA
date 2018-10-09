@@ -26,11 +26,11 @@ var url = null;
 function doInit() {
 	if(publish == '1'){//发布状态别人可以查看
 		$('msg').update('新闻发布成功');
-		   url = '/yh/core/funcs/news/manage/newsList.jsp';
+		   url = '/newtouchOA/core/funcs/news/manage/newsList.jsp';
 	}
 	if(publish == '0'){//保存处于未发布状态，别人看不到
 		$('msg').update('新闻保存成功');
-		  url = '/yh/core/funcs/news/manage/newsAdd.jsp';
+		  url = '/newtouchOA/core/funcs/news/manage/newsAdd.jsp';
     }
 }
 

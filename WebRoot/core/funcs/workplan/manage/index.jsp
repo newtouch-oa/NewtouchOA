@@ -453,7 +453,7 @@ style="overflow-y: auto;" class="SmallStatic" wrap="yes" readonly></textarea>
 <a href="javascript:;" class="orgAdd" onClick="javascript:addDept();">添加</a>
 
 <!-- <a href="javascript:;" class="orgAdd" style="vertical-align:bottom"
-onClick="openDialog('/yh/core/funcs/dept/deptedittree.jsp?deptId=1','300', '300')">添加</a> -->
+onClick="openDialog('/newtouchOA/core/funcs/dept/deptedittree.jsp?deptId=1','300', '300')">添加</a> -->
 <a href="javascript:;" class="orgClear"
 onClick="clearUser('deptParent', 'deptParentDesc')">清空</a></td>
 </tr>

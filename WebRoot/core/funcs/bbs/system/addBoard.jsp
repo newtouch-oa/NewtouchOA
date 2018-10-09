@@ -36,9 +36,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      <div class="content" style="font-size:12pt">
     
     <%if(boardId!=null && !boardId.equals("") && Integer.parseInt(boardId)>0){ %>  
-   <br>修改成功！<a href='/yh/core/funcs/bbs/system/index.jsp'>返回讨论区</a><Br>
+   <br>修改成功！<a href='/newtouchOA/core/funcs/bbs/system/index.jsp'>返回讨论区</a><Br>
    <%}else{ %>
-      <br>新建成功！<a href='/yh/core/funcs/bbs/system/index.jsp'>返回讨论区</a><Br>
+      <br>新建成功！<a href='/newtouchOA/core/funcs/bbs/system/index.jsp'>返回讨论区</a><Br>
       <%} %>
 
 </div> </td> </tr> </tbody></table></div>

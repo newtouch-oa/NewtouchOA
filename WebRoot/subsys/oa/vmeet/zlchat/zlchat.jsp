@@ -34,7 +34,7 @@ function doInit(){
   }
  }
 function add_user(){
-   var url="/yh/subsys/oa/vmeet/addUser.jsp?userName="+userName+"&seqId="+seqId;
+   var url="/newtouchOA/subsys/oa/vmeet/addUser.jsp?userName="+userName+"&seqId="+seqId;
    window.open(url,"","height=300,width=550,status=0,toolbar=no,menubar=no",false);
 
   

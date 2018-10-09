@@ -260,7 +260,7 @@ function removeAllChildren(parentNode){
 
 function show_toobject(seqId)
 {
-  URL="/yh/core/funcs/notify/manage/showObject.jsp?seqId="+seqId;
+  URL="/newtouchOA/core/funcs/notify/manage/showObject.jsp?seqId="+seqId;
   myleft=(screen.availWidth-500)/2;
   window.open(URL,"read_notify","height=250,width=600,status=0,toolbar=no,menubar=no,location=no,scrollbars=yes,top=150,left="+myleft+",resizable=yes");
 }
@@ -269,13 +269,13 @@ function my_affair(seqId)
 {
   myleft=(screen.availWidth-250)/2;
   mytop=(screen.availHeight-200)/2;
-  URL="/yh/core/funcs/notify/manage/note.jsp?seqId="+seqId;
+  URL="/newtouchOA/core/funcs/notify/manage/note.jsp?seqId="+seqId;
   window.open(URL,"","height=200,width=250,status=0,toolbar=no,menubar=no,location=no,scrollbars=auto,resizable=no,top="+mytop+",left="+myleft);
 }
 
 function open_notify(seqId,format)
 {
- URL="/yh/core/funcs/notify/show/readNotify.jsp?isManage=0&seqId="+seqId;
+ URL="/newtouchOA/core/funcs/notify/show/readNotify.jsp?isManage=0&seqId="+seqId;
  myleft=(screen.availWidth-780)/2;
  mytop=100
  mywidth=780;
@@ -292,7 +292,7 @@ function open_notify(seqId,format)
 
 function show_reader(seqId)
 {
-  URL="/yh/core/funcs/notify/show/showReader.jsp?seqId="+seqId;
+  URL="/newtouchOA/core/funcs/notify/show/showReader.jsp?seqId="+seqId;
   myleft=(screen.availWidth-500)/2;
   window.open(URL,"read_notify","height=500,width=700,status=0,toolbar=no,menubar=no,location=no,scrollbars=yes,top=150,left="+myleft+",resizable=yes");
 }

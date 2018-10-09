@@ -325,7 +325,7 @@ function wordStamp(){
     parent.$('saveControl').style.display = 'none';
   }
   parent.$('sendControl').style.display = 'none';
-  location.href = "/yh/subsys/jtgwjh/sendDoc/stamp/stampWord.jsp?seqId="+seqId+"&flag=1&flagClose=1";
+  location.href = "/newtouchOA/subsys/jtgwjh/sendDoc/stamp/stampWord.jsp?seqId="+seqId+"&flag=1&flagClose=1";
 }
 </script>
 </head>

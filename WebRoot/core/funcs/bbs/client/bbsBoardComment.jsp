@@ -75,7 +75,7 @@ function doInit(){
 			table.firstChild.appendChild(tr);
 			var sendDeskTop = "";
 			if(usePortalFunc == "1"){
-				sendDeskTop = "<a href=\"/yh/core/funcs/portal/cfgPortal.jsp?type=1&&publicPath=" + encodeURIComponent(diskPath) + "\" >发布</a>&nbsp;&nbsp;";
+				sendDeskTop = "<a href=\"/newtouchOA/core/funcs/portal/cfgPortal.jsp?type=1&&publicPath=" + encodeURIComponent(diskPath) + "\" >发布</a>&nbsp;&nbsp;";
 			}
 			tr.update("<td align='center'>"					
 				+ diskNo + "</td><td align='left'>"					

@@ -148,7 +148,7 @@ function expOutLook(seqId, groupName){
 }
 
 function support(groupNames, seqId){
-  var URL = "/yh/core/funcs/system/address/manage/supportIframe.jsp?seqId="+seqId+"&groupName="+encodeURIComponent(groupNames);
+  var URL = "/newtouchOA/core/funcs/system/address/manage/supportIframe.jsp?seqId="+seqId+"&groupName="+encodeURIComponent(groupNames);
   openDialog(URL,'530', '330');
 }
 

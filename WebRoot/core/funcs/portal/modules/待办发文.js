@@ -39,7 +39,7 @@
       var a = $("<a href='javascript:window.location.href=window.location.href'></a>");
        a.click(function() {
     	   var par = "runId=" + e.runId + "&flowId=" + e.flowId + "&prcsId=" + e.prcsId + "&flowPrcs=" + e.flowPrcs + "&sortId=" + e.sortId ;
-    	   top.dispParts("/yh/core/funcs/doc/flowrun/list/inputform/index.jsp?" + par, 1);
+    	   top.dispParts("/newtouchOA/core/funcs/doc/flowrun/list/inputform/index.jsp?" + par, 1);
       });
 
       var title = $('<span class="title"></span>').html(e.title);
@@ -49,7 +49,7 @@
     }
   }],
   "xtype": "panel",
-  height: "auto",
+  "height": "auto",
   "cmpCls": "jq-window",
   "title": "待办发文"
 }

@@ -44,7 +44,7 @@ function confirmDel() {
     </tr>
     <tr>
       <th colspan="4">
-      <a href="/yh/raw/ljf/html/addcodeitem.jsp?classNo=<%=classNo %>" target="contentFrame">添加CODE_ITEM</a>   
+      <a href="/newtouchOA/raw/ljf/html/addcodeitem.jsp?classNo=<%=classNo %>" target="contentFrame">添加CODE_ITEM</a>   
       </th>
     </tr>
 

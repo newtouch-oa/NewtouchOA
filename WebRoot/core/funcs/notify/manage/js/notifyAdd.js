@@ -691,7 +691,7 @@ function saveNotify(){
 }
 
 function goBack() {
-  window.location.href = "/yh/core/funcs/notify/manage/notifyList.jsp";
+  window.location.href = "/newtouchOA/core/funcs/notify/manage/notifyList.jsp";
 }
 
 function showMenuStatus(event){

@@ -153,7 +153,7 @@ function ClearUser(TO_ID, TO_NAME){
 
 function SelectUser(TO_ID, TO_NAME){
   var treId = treeId;
-  URL = "/yh/core/funcs/userpriv/userselect.jsp?treeId=" + treId + "&TO_ID=" + TO_ID + "&TO_NAME=" + TO_NAME;
+  URL = "/newtouchOA/core/funcs/userpriv/userselect.jsp?treeId=" + treId + "&TO_ID=" + TO_ID + "&TO_NAME=" + TO_NAME;
   openDialog(URL,'400', '350');
 }
 

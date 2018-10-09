@@ -41,7 +41,7 @@ function doSubmit(){
   	var rtJson = getJsonRs(url,mergeQueryString($("form1")));
   	if(rtJson.rtState == "0"){
   	  alert("站点新建成功！");
-  	  location.href = "/yh/cms/station/manage.jsp";
+  	  location.href = "/newtouchOA/cms/station/manage.jsp";
   	}
   }
 }

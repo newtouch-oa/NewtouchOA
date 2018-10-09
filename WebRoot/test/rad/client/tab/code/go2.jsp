@@ -15,7 +15,7 @@
 <script type="text/Javascript" src="<%=contextPath%>/core/js/smartclient.js" ></script>
 <script type="text/javascript">
 function doInit() {
-  var rtText = getTextRs("/yh/raw/ljf/YHCodeTrnsAct/trnsCode.act?page=test;rad;client;tab;code;go2.jsp");
+  var rtText = getTextRs("/newtouchOA/raw/ljf/YHCodeTrnsAct/trnsCode.act?page=test;rad;client;tab;code;go2.jsp");
   $("codeDisp").innerHTML = rtText;
 }
 </script>

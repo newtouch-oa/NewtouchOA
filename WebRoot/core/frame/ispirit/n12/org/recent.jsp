@@ -49,7 +49,7 @@ function onClickSentMsg(uid,uname){
 	  if(typeof(window.external.OA_SMS) != 'undefined' && window.top.bIMLogin== true){  //在精灵中打开
 	      window.external.OA_SMS(uid,uname,"SEND_MSG");
 	    }	else{ //在浏览器中打开
-	        var url="/yh/core/funcs/message/smsback.jsp?fromId="+uid;
+	        var url="/newtouchOA/core/funcs/message/smsback.jsp?fromId="+uid;
 	        window.open (url, 'newwindow', 'height=340, top='+(screen.height-340)/2+',left='+(screen.width-700)/2+', width=700, toolbar=no, menubar=no, scrollbars=yes, resizable=yes,location=n o, status=no');
 
 	   }

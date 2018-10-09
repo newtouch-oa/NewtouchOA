@@ -262,7 +262,8 @@ public class YHAuthenticator {
   
   public static void main(String[] args) {
 	  try {
-		System.out.println(YHAuthenticator.ciphEncryptStr("hr1324!@#"));
+		  System.out.println("222222222222");
+		System.out.println(YHAuthenticator.ciphEncryptStr("123456"));
 	} catch (Exception e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();

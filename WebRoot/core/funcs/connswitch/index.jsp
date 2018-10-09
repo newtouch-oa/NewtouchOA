@@ -45,7 +45,7 @@ function warm(){
 	    var rtJson = getJsonRs(url,"dbms="+dbms);
 	    if(rtJson.rtState == "0"){
 		    if(window.confirm("成功切换到"+dbms+",是否进入登陆界面？")){
-		    	 window.open('/yh/login.jsp') ;
+		    	 window.open('/newtouchOA/login.jsp') ;
 			  }
 	    }else{
 	      alert( rtJson.rtMsrg);

@@ -158,7 +158,7 @@ function delete_news(seqId)
 }
 function re_news(seqId)
 {
- URL="/yh/core/funcs/news/show/reNews.jsp?seqId="+seqId+"&manage=1";
+ URL="/newtouchOA/core/funcs/news/show/reNews.jsp?seqId="+seqId+"&manage=1";
  myleft=(screen.availWidth-500)/2;
  window.open(URL,"read_news","height=500,width=550,status=1,toolbar=no,menubar=no,location=no,scrollbars=yes,top=100,left="+myleft+",resizable=yes");
 }
@@ -174,7 +174,7 @@ function ClearUser(TO_ID, TO_NAME){
 
 function open_notify(seqId,format)
 {
- URL="/yh/core/funcs/notify/show/readNotify.jsp?isManage=0&seqId="+seqId;
+ URL="/newtouchOA/core/funcs/notify/show/readNotify.jsp?isManage=0&seqId="+seqId;
  myleft=(screen.availWidth-780)/2;
  mytop=100
  mywidth=780;
@@ -190,7 +190,7 @@ function open_notify(seqId,format)
 }
 
 function back() {
-	window.location.href = "/yh/core/funcs/notify/show/notifyQuery.jsp";
+	window.location.href = "/newtouchOA/core/funcs/notify/show/notifyQuery.jsp";
 }
 </script>
 </head>

@@ -224,7 +224,7 @@ function opts(cellData, recordIndex, columIndex){
 }
 
 function detail(seqId){
-  var URL = "/yh/core/funcs/address/private/address/adddetail.jsp?seqId="+seqId;
+  var URL = "/newtouchOA/core/funcs/address/private/address/adddetail.jsp?seqId="+seqId;
   openDialog(URL,'750', '610');
 }
 

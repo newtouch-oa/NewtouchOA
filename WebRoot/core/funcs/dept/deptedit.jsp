@@ -137,7 +137,7 @@ function commitDept(){
 }
 
 function nextDept(){
-  location.href="/yh/core/funcs/dept/deptinput.jsp?deptLocal=" + deptLocal + "&deptParent=" + deptParent + "&treeId=" + treeId;
+  location.href="/newtouchOA/core/funcs/dept/deptinput.jsp?deptLocal=" + deptLocal + "&deptParent=" + deptParent + "&treeId=" + treeId;
 }
 
 function deleteDept(){
@@ -168,7 +168,7 @@ function ClearUser(TO_ID, TO_NAME){
 
 function SelectUser(TO_ID, TO_NAME){
   var treId = treeId;
-  URL = "/yh/core/funcs/dept/userselect.jsp?treeId=" + treId + "&TO_ID=" + TO_ID + "&TO_NAME=" + TO_NAME;
+  URL = "/newtouchOA/core/funcs/dept/userselect.jsp?treeId=" + treId + "&TO_ID=" + TO_ID + "&TO_NAME=" + TO_NAME;
   openDialog(URL,'400', '350');
 }
 

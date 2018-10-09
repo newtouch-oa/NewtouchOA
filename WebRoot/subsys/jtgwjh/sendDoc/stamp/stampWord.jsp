@@ -116,7 +116,7 @@ function updateAipToService1() {
         webObj.HttpInit();
         webObj.HttpAddPostCurrFile("FileBlody");  
         var port = '<%=port%>';
-        returnValue = webObj.HttpPost("http://<%=serviceName%>:" +port+ "/yh/subsys/jtgwjh/receiveDoc/saveFile/saveAip.jsp?filePath=" + encodeURIComponent(filePath) + "&fileName=" + encodeURIComponent(attachmentName));
+        returnValue = webObj.HttpPost("http://<%=serviceName%>:" +port+ "/newtouchOA/subsys/jtgwjh/receiveDoc/saveFile/saveAip.jsp?filePath=" + encodeURIComponent(filePath) + "&fileName=" + encodeURIComponent(attachmentName));
         if("ok" == returnValue){
           //alert("保存成功！"); 
           var url = "<%=contextPath%>/yh/subsys/jtgwjh/docSend/act/YHDocSendStampAct/mainStamps.act?seqId=<%=seqId%>";

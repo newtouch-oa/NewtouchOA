@@ -79,7 +79,7 @@ function deleteDept(){
 }
 
 function nextWord(){
-  location.href="/yh/core/funcs/doc/docword/wordInput.jsp?treeId="+treeId;
+  location.href="/newtouchOA/core/funcs/doc/docword/wordInput.jsp?treeId="+treeId;
 }
 
 function deptFunc(){

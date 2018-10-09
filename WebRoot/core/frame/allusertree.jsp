@@ -85,7 +85,7 @@ function showImage(event , id , a , li){
 function getChildOrEdit(id){
 	 if(id.indexOf('r')!= -1){
 		    id=id.substring(1,id.length);
-		   //dispParts("/yh/core/funcs/userinfo/index.jsp?userId="+id+"&windows=1",0);
+		   //dispParts("/newtouchOA/core/funcs/userinfo/index.jsp?userId="+id+"&windows=1",0);
 		  
 		    if (top.openUrl) {
 		     top.openUrl({

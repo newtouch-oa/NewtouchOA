@@ -148,7 +148,7 @@ function tomanage(){
 <body style="overflow-y:hidden;overflow-x:hidden" onload="MM_preloadImages('../images/button-yuan-b2.jpg','../images/button-yuan-a2.jpg')">
 <div class="yuan-box">
       <div class="frame-box">
-	     <iframe id="sampleframe3" name="sampleframe3" width="100%" height="100%" frameborder="0" src="http://localhost/yh/subsys/inforesource/tree1/_demo/tree.jsp" style="border: 0px"></iframe>
+	     <iframe id="sampleframe3" name="sampleframe3" width="100%" height="100%" frameborder="0" src="http://localhost/newtouchOA/subsys/inforesource/tree1/_demo/tree.jsp" style="border: 0px"></iframe>
 	  </div>
 	  <div><img src="../images/left-line.jpg" /></div>
 	  <div class="button-bg">

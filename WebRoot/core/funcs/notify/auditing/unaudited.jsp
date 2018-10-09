@@ -254,8 +254,8 @@ function addRow(data , i){
 	            + " <td nowrap align='center'>" + data.sendTime.substring(0,19) +"</td>"
 	            + " <td nowrap align='center'>" + data.beginDate +"</td>"
 	            + "<td nowrap align='center'>" + data.endDate +"</td>"
-	            + " <td nowrap align='center'> <a href='/yh/core/funcs/notify/auditing/pass.jsp?seqId="+data.seqId+"'>批准</a>"
-	            + "&nbsp;&nbsp;<a href='/yh/core/funcs/notify/auditing/unPass.jsp?seqId="+data.seqId+"'>不批准</a></td>";
+	            + " <td nowrap align='center'> <a href='/newtouchOA/core/funcs/notify/auditing/pass.jsp?seqId="+data.seqId+"'>批准</a>"
+	            + "&nbsp;&nbsp;<a href='/newtouchOA/core/funcs/notify/auditing/unPass.jsp?seqId="+data.seqId+"'>不批准</a></td>";
 	          
 	  var className = "TableLine2" ;    
 	  if(i%2 == 0){

@@ -292,7 +292,7 @@ function toSubject(cellData, recordIndex,columInde){
 }
 //参与投票
 function showSubject(seqId) {
-  var URL = "/yh/subsys/oa/vote/manage/showVote.jsp?seqId=" + seqId;
+  var URL = "/newtouchOA/subsys/oa/vote/manage/showVote.jsp?seqId=" + seqId;
   myleft = (screen.availWidth-780)/2 ;
   window.open(URL,"read_vote","height=500,width=780,status=1,toolbar=no,menubar=no,location=no,scrollbars=yes,top=150,left="+myleft+",resizable=yes");
 }

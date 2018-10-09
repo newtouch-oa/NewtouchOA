@@ -71,10 +71,10 @@ function doInit(){
 
 function openWindow(id,index){
 	  if(index==1){ //sms
-	  window.open("/yh/core/funcs/sms/smsback.jsp?fromId="+id,"",'height=400,width=700,status=1,toolbar=no,menubar=no,location=no,scrollbars=yes,left=800,top=270,resizable=yes');
+	  window.open("/newtouchOA/core/funcs/sms/smsback.jsp?fromId="+id,"",'height=400,width=700,status=1,toolbar=no,menubar=no,location=no,scrollbars=yes,left=800,top=270,resizable=yes');
 	  }
 	  else if(index==2){//email
-	  window.open("/yh/core/funcs/email/new/index.jsp?toId="+id,"",'height=500,width=900,status=1,toolbar=no,menubar=no,location=no,scrollbars=yes,left=800,top=270,resizable=yes');
+	  window.open("/newtouchOA/core/funcs/email/new/index.jsp?toId="+id,"",'height=500,width=900,status=1,toolbar=no,menubar=no,location=no,scrollbars=yes,left=800,top=270,resizable=yes');
 	  }
 	}
 	 

@@ -114,7 +114,7 @@ function toSelQueryString() {
   return param;
 }
 function saveSelectDiv(value) {
-  var Url = "/yh/rad/CodeUtil/curd/selectField.jsp"
+  var Url = "/newtouchOA/rad/CodeUtil/curd/selectField.jsp"
   var text = getTextRs(Url);
   alertWin('select配置',text,500,400);
   $('field_name').focus();
@@ -139,7 +139,7 @@ function saveRadioDiv(value) {
   //createIframe();
   //  alert(value);
  // htmlEditor("/test/rad/client/codeautogener/rawtest/div2.jsp");
-  var Url = "/yh/rad/CodeUtil/curd/radioField.jsp"
+  var Url = "/newtouchOA/rad/CodeUtil/curd/radioField.jsp"
   var text = getTextRs(Url);
   alertWin('radio配置',text,500,400);
   var res = value.split("_");

@@ -90,7 +90,7 @@ function doInit() {
   }
 
   function SelectUser(TO_ID, TO_NAME){
-    var URL = "/yh/core/funcs/dept/userselect.jsp?TO_ID=" + TO_ID + "&TO_NAME=" + TO_NAME;
+    var URL = "/newtouchOA/core/funcs/dept/userselect.jsp?TO_ID=" + TO_ID + "&TO_NAME=" + TO_NAME;
     openDialog(URL,'450', '340');
   }
 

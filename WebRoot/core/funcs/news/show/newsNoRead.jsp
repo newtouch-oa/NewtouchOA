@@ -228,7 +228,7 @@ function addRow(data , i){
 
 function re_news(seqId)
 {
- URL="/yh/core/funcs/news/show/reNews.jsp?seqId="+seqId+"&manage=1";
+ URL="/newtouchOA/core/funcs/news/show/reNews.jsp?seqId="+seqId+"&manage=1";
  myleft=(screen.availWidth-500)/2;
  window.open(URL,"read_news","height=500,width=550,status=1,toolbar=no,menubar=no,location=no,scrollbars=yes,top=100,left="+myleft+",resizable=yes");
 }
@@ -253,7 +253,7 @@ function removeAllChildren(parentNode){
 
 function open_news(seqId,format)
 {
- URL="/yh/core/funcs/news/show/readNews.jsp?seqId="+seqId;
+ URL="/newtouchOA/core/funcs/news/show/readNews.jsp?seqId="+seqId;
  myleft=(screen.availWidth-780)/2;
  mytop=100
  mywidth=780;

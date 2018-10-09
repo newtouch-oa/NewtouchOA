@@ -138,7 +138,7 @@ function getChildOrEdit(id){
        window.external.OA_SMS(id,"aa","SEND_MSG");
     }else{
     	//在浏览器中打开
-    	var url="/yh/core/funcs/message/smsback.jsp?fromId="+id;
+    	var url="/newtouchOA/core/funcs/message/smsback.jsp?fromId="+id;
     	 window.external.OA_SMS(url,"","OPEN_URL");
      //window.open (url, 'newwindow', 'height=340, top='+(screen.height-340)/2+',left='+(screen.width-700)/2+', width=700, toolbar=no, menubar=no, scrollbars=yes, resizable=yes,location=n o, status=no');
 

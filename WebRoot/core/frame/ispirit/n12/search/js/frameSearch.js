@@ -76,7 +76,7 @@ function getUserInfo(el,pageIndex,pageSize){
  * 
  * */
 function openIMWindow(seqId,userName){
-	var url="/yh/core/funcs/message/smsback.jsp?fromId="+seqId;
+	var url="/newtouchOA/core/funcs/message/smsback.jsp?fromId="+seqId;
 	 if(window.top.module_ie_im== "IE"){
 	    var data="url="+encodeURI(url);
 	    var toIEUrl=contextPath+"/core/frame/ispirit/n12/org/toIE.jsp?"+data;

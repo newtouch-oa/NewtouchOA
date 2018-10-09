@@ -55,7 +55,7 @@ function doLogin(){
 
 <div id="layout">
 	<div id="login_area_pic"><img src="<%=imgPath %>/frame/login_area.jpg" alt="<%=StaticData.SOFTTITLE%>" title="<%=StaticData.SOFTTITLE%>"/></div>
-	<form method=post action="/yh/core/funcs/display/index.jsp" id='loginForm'>
+	<form method=post action="/newtouchOA/core/funcs/display/index.jsp" id='loginForm'>
 	<div id="login_area">
 		<span>用户名：<input class="Log_input"  type="text" name="userName"  value="liuhan" id="userName" tabindex="1"/></span>
 		<span>密 码：<input class="Log_input"  type="password" name="pwd" id="pwd" value="liuhan" tabindex="2"/></span>

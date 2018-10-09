@@ -636,7 +636,7 @@ function ispirit_js(op_str)
    }
    else if(op_str=="show_im_panel")          //打开OA主页面
    {
-	   window.external.OA_SMS("/yh/core/frame/2/index.jsp","","OPEN_URL");
+	   window.external.OA_SMS("/newtouchOA/core/frame/2/index.jsp","","OPEN_URL");
 	   
    }
    else if(op_str=="get_client_type")  //获取用户临时状态
@@ -767,15 +767,15 @@ function checkMessage() {   //检查微讯;
  var windowtype = ''
  if(module_id == "email"){            // 邮件
     windowtype = 'MAX';
-    URL ="/yh/core/funcs/email/index.jsp";        
+    URL ="/newtouchOA/core/funcs/email/index.jsp";        
  }else if(module_id == "person_info"){  //用户信息
-    URL ="/yh/core/funcs/userinfo/person.jsp?userId=<%=person.getSeqId()%>&windows=1";    
+    URL ="/newtouchOA/core/funcs/userinfo/person.jsp?userId=<%=person.getSeqId()%>&windows=1";    
  }else if(module_id == "index"){        //首页
     windowtype = 'MAX';
-    URL ="/yh/core/frame/2/index.jsp";   
+    URL ="/newtouchOA/core/frame/2/index.jsp";   
  }else if(module_id == "group_msg"){     //群发信息
     windowtype = '416,300';
-    URL ="/yh/core/funcs/message/smsgSend.jsp";   
+    URL ="/newtouchOA/core/funcs/message/smsgSend.jsp";   
  }
  
 

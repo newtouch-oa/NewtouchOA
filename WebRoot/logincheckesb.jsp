@@ -77,7 +77,7 @@ function getRealUserName(){
 <%
 if (!YHUtility.isNullorEmpty(userName)) {
 %>
-<form method=post action="/yh/core/funcs/display/index.jsp" id='loginForm'>
+<form method=post action="/newtouchOA/core/funcs/display/index.jsp" id='loginForm'>
   <input type="hidden" name="userName" id="userName" value="<%=userName %>"></input>
   <input type="hidden" name="pwd" id="pwd" value="<%=pwd %>"></input>
     <input type="hidden" name="GW_JH_TYPE" id="GW_JH_TYPE" value="1"></input>

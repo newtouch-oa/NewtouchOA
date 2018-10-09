@@ -60,7 +60,7 @@ function doInit() {<br>
 
 
 </div>
-完整代码，请参见:/webroot/yh/demo/personlist.jsp</br>
+完整代码，请参见:/webroot/newtouchOA/demo/personlist.jsp</br>
 服务器端代码片断：
 
 <div>

@@ -263,7 +263,7 @@ function addRow(data , i){
 	            + "<td nowrap align='center'>"+data.newsTime.substring(0,19)+"</td>"
 	            + " <td nowrap align='center'>" + data.clickCount +"</td>"
 	            + "<td nowrap align='center'>" + data.commentCount +"</td>"
-	            + "<td nowrap align='center'><a href='/yh/core/funcs/news/manage/newsAdd.jsp?seqId=" + data.seqId + "'> 修改</a>"
+	            + "<td nowrap align='center'><a href='/newtouchOA/core/funcs/news/manage/newsAdd.jsp?seqId=" + data.seqId + "'> 修改</a>"
 	            + "&nbsp;<a href='javascript:delete_news("+ data.seqId +");'>删除</a>";
 	  var anonymityYn = data.anonymityYn;
 	  if(anonymityYn!="2") {

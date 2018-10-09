@@ -126,7 +126,7 @@ function saveNewsByUp(){
   } 
   var FORM_HTML = FCK.EditingArea.Window.document.body.innerHTML;
   var textStr = FORM_HTML;
-  var url = "/yh/yh/core/funcs/news/act/YHNewsHandleAct/saveNewsByUp.act";
+  var url = "/yh/newtouchOA/core/funcs/news/act/YHNewsHandleAct/saveNewsByUp.act";
   document.newsForm.content.value = textStr;
   var typeId = document.newsForm.typeId.value;
   if(typeId=="0"){
@@ -260,7 +260,7 @@ function savenews(){
     textStr = FORM_HTML;
   }
   
-  var url = "/yh/yh/core/funcs/news/act/YHNewsHandleAct/addNews.act";
+  var url = "/yh/newtouchOA/core/funcs/news/act/YHNewsHandleAct/addNews.act";
   var typeId = document.newsForm.typeId.value;
   if(typeId == "0") {
     document.newsForm.typeId.value = defaultType;

@@ -211,7 +211,7 @@ function SetCwinHeight(){
         <input type="button" value="关闭" class="BigButton" onClick="javascript:window.close();">
         </span>
          <span id="return" style="display:none">
-        <input type="button" value="返回" class="BigButton" onClick="window.location.href='/yh/core/funcs/notify/show/index.jsp'">
+        <input type="button" value="返回" class="BigButton" onClick="window.location.href='/newtouchOA/core/funcs/notify/show/index.jsp'">
         </span>
       </td>
     </tr>

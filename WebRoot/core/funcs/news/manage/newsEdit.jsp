@@ -158,7 +158,7 @@ function savenews(){
 	  textStr = textStr.replace(/\"/g,"\\\"");
 	  textStr = textStr.replace(/\'/g,"\'");
 	  textStr = textStr.replace(/[[\n\r\f]/g,"");
-	  var url = "/yh/yh/core/funcs/news/act/YHNewsHandleAct/addNews.act";
+	  var url = "/yh/newtouchOA/core/funcs/news/act/YHNewsHandleAct/addNews.act";
 	  document.newsForm.content.value = textStr;
 	  //alert(textStr);
 	  $("newsForm").action = url;

@@ -63,7 +63,7 @@ function doSubmit(){
   			}
   	  }
   	  else{
-  	  	location.href = "/yh/cms/station/manage.jsp";
+  	  	location.href = "/newtouchOA/cms/station/manage.jsp";
   	  }
   	}
   }

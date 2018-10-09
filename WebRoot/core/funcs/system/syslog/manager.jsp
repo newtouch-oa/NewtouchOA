@@ -103,7 +103,7 @@
 	   if (json.rtState == "0"){
 		    var rtData = json.rtData;
 		    var cou = rtData; 
-				window.location.href="/yh/core/funcs/system/syslog/deletecount.jsp?cou=" + cou; //到deletecount.jsp 页面接收cou
+				window.location.href="/newtouchOA/core/funcs/system/syslog/deletecount.jsp?cou=" + cou; //到deletecount.jsp 页面接收cou
 	 		} else{
 		    alert("没有符合条件数据删除！！");
 		}

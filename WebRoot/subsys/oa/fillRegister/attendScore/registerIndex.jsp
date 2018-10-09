@@ -19,11 +19,11 @@
 <script type="text/javascript">
 
 function addRegister(){
-  window.location.href = "/yh/subsys/oa/fillRegister/attendScore/newRegister.jsp";
+  window.location.href = "/newtouchOA/subsys/oa/fillRegister/attendScore/newRegister.jsp";
 }
 
 function historyRegister(){
-  window.location.href = "/yh/subsys/oa/fillRegister/attendScore/historyRegister.jsp";
+  window.location.href = "/newtouchOA/subsys/oa/fillRegister/attendScore/historyRegister.jsp";
 }
 
 var pageMgr = null;

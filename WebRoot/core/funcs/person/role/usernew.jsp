@@ -268,7 +268,7 @@ function getRegistNumFunc(){
   var rtJsons = getJsonRs(urls);
   if (rtJsons.rtState == "0") {
     if(rtJsons.rtData == "1"){
-      var url = "/yh/core/funcs/person/supportIframe.jsp?deptId="+deptId;
+      var url = "/newtouchOA/core/funcs/person/supportIframe.jsp?deptId="+deptId;
       window.showModalDialog(url, window, "dialogWidth:700px;dialogHeight:500px");
      }else{
        alert("已经达到系统的最大授权用户数("+maxSum+")，不能再增加允许登录OA用户");

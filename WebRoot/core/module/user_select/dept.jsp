@@ -111,7 +111,7 @@ function getDeptInfo(id)
 
 function ShowSelected()
 {
-   parent.user.location="/yh/core/module/user_select/selected.jsp?TO_ID=<%=TO_ID%>&TO_NAME=<%=TO_NAME%>";
+   parent.user.location="/newtouchOA/core/module/user_select/selected.jsp?TO_ID=<%=TO_ID%>&TO_NAME=<%=TO_NAME%>";
 }
 var ctroltime=null,key="";
 function CheckSend()
@@ -128,7 +128,7 @@ function CheckSend()
 	if(key != kword.value && kword.value != "")
 	{
      key = kword.value;
-	   parent.user.location = "/yh/core/module/user_select/query.jsp?" + kword.value;
+	   parent.user.location = "/newtouchOA/core/module/user_select/query.jsp?" + kword.value;
 	   if($('search_icon').src.indexOf("/yh/core/module/user_select/quicksearch.gif") >= 0)
 	   {
 	   	   $('search_icon').src = "/yh/core/module/user_select/closesearch.gif";

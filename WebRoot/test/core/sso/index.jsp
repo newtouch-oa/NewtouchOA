@@ -12,7 +12,7 @@ function handleBack(data) {
   alert(data.retState);
 }
 function test() {
-  rsSSO("http://192.168.0.123/yh/test/core/sso/info.jsp");
+  rsSSO("http://192.168.0.123/newtouchOA/test/core/sso/info.jsp");
 }
 </script>
 </head>

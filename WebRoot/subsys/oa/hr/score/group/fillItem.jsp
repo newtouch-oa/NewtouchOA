@@ -82,7 +82,7 @@ function getItemDetail(){
 
 <br>
 <div align="center">
-   <input type="button" class="BigButton" value="返回" onClick="location='/yh/subsys/oa/hr/score/index.jsp';">
+   <input type="button" class="BigButton" value="返回" onClick="location='/newtouchOA/subsys/oa/hr/score/index.jsp';">
 </div>
 
 </body>

@@ -64,7 +64,7 @@ var closeNocPanel = null;
 	   
 	   //点击查看历史记录
 	   $('#check_remind_histroy').live('click', function(){
-         openURL("/yh/core/funcs/sms/index.jsp");   
+         openURL("/newtouchOA/core/funcs/sms/index.jsp");   
 	   });
 	   
 	   //点击全部已阅
@@ -112,7 +112,7 @@ var closeNocPanel = null;
 	   		}
 	   	});
 	   	
-	   	window.open('/yh/core/frame/ispirit/n12/module/index.jsp?SMS_ID_STR='+idstr+'&NAV_MAIN_URL='+encodeURIComponent(urlStr));
+	   	window.open('/newtouchOA/core/frame/ispirit/n12/module/index.jsp?SMS_ID_STR='+idstr+'&NAV_MAIN_URL='+encodeURIComponent(urlStr));
 	   	RemoveNoc(readobj,idstr_all, 0);
          CloseNoc();
 	   });
@@ -142,7 +142,7 @@ var closeNocPanel = null;
 	   			urlStr+=url+",";
 	   		}
 	   	});
-	   	url = '/yh/core/frame/ispirit/n12/module/index.jsp?SMS_ID_STR='+idstr+'&NAV_MAIN_URL='+encodeURIComponent(urlStr);
+	   	url = '/newtouchOA/core/frame/ispirit/n12/module/index.jsp?SMS_ID_STR='+idstr+'&NAV_MAIN_URL='+encodeURIComponent(urlStr);
         	openURL(url);
 	   });
 	   

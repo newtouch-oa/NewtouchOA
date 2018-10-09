@@ -155,7 +155,7 @@ function checkStr(str){
       <td colspan="2" nowrap="">
         <!-- <input type="button" value="确定" onclick="sendForm();" class="BigButton">&nbsp;&nbsp; -->
         <input type="button" value="确定" onclick="form1.submit()" class="BigButton">&nbsp;&nbsp;
-        <input type="button" value="返回" class="BigButton" onclick="window.location.href='/yh/core/funcs/bbs/system/index.jsp'">
+        <input type="button" value="返回" class="BigButton" onclick="window.location.href='/newtouchOA/core/funcs/bbs/system/index.jsp'">
       </td>
     </tr>
   </tbody></table>

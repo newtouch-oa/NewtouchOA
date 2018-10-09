@@ -225,7 +225,7 @@ function deleteSingle(seqId){
 }
 
 function detail(seqId, psnName){
-  var URL = "/yh/core/funcs/address/public/address/adddetail.jsp?seqId="+seqId+"&psnName="+encodeURIComponent(psnName);
+  var URL = "/newtouchOA/core/funcs/address/public/address/adddetail.jsp?seqId="+seqId+"&psnName="+encodeURIComponent(psnName);
   openDialog(URL,'750', '650');
 }
 

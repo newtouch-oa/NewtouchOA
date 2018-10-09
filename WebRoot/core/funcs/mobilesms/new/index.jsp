@@ -192,7 +192,7 @@ function clearContent(){
 }
 
 function selectAddress(){
-  var url = "/yh/core/funcs/mobilesms/new/MultiAddressSelect.jsp";
+  var url = "/newtouchOA/core/funcs/mobilesms/new/MultiAddressSelect.jsp";
   openDialogResize(url,  520, 400)
 }
 </script>

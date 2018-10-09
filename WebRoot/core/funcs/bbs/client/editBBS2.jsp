@@ -76,7 +76,7 @@ function initSwfUpload() {
     var linkColor = document.linkColor;
     var settings = {
       flash_url : "/yh/core/cntrls/swfupload.swf",
-      upload_url: "/yh/yh/core/funcs/news/act/YHNewsHandleAct/fileLoad.act",
+      upload_url: "/yh/newtouchOA/core/funcs/news/act/YHNewsHandleAct/fileLoad.act",
       post_params: {"PHPSESSID" : "1FD157718C9398E86185F6839FC994BF.worker_1"},
       file_size_limit : (maxUploadSize + " MB"),
       file_types : "*.*",
@@ -350,7 +350,7 @@ BbsComment bbsC=new BbsService().getUserBBSCommentDetailByCommentId(request,o,co
     </td>
   </tr>
 </tbody></table>
-<form enctype="multipart/form-data" action="/yh/yh/core/funcs/news/act/YHNewsHandleAct/addNews.act" method="post" name="newsForm" id="newsForm">
+<form enctype="multipart/form-data" action="/yh/newtouchOA/core/funcs/news/act/YHNewsHandleAct/addNews.act" method="post" name="newsForm" id="newsForm">
 <table class="TableBlock" width="95%" align="center">
     <tbody><tr>
       <td nowrap="" class="TableData" width="15%"><select name="typeId" id="typeId" title="新闻类型可在“系统管理”-&gt;“分类码管理”模块设置。">
@@ -522,7 +522,7 @@ BbsComment bbsC=new BbsService().getUserBBSCommentDetailByCommentId(request,o,co
  </tbody></table>
  <input type="hidden" id="format" name="format" value="0">
 </form>
-<form id="formFile" action="/yh/yh/core/funcs/news/act/YHNewsHandleAct/uploadFile.act" method="post" enctype="multipart/form-data" target="commintFrame">
+<form id="formFile" action="/yh/newtouchOA/core/funcs/news/act/YHNewsHandleAct/uploadFile.act" method="post" enctype="multipart/form-data" target="commintFrame">
   <input id="btnFormFile" name="btnFormFile" type="submit" style="display:none;">
   </form>
 <iframe widht="0" height="0" name="commintFrame" id="commintFrame"></iframe>

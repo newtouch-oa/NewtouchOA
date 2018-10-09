@@ -169,7 +169,7 @@ function clickPrivs(field){
 }
 
 function getPageEnd(seqId){
-  var URL = "/yh/subsys/oa/examManage/examOnline/queryExam/scoreIndex.jsp?flowId=" + seqId;
+  var URL = "/newtouchOA/subsys/oa/examManage/examOnline/queryExam/scoreIndex.jsp?flowId=" + seqId;
   window.location.href = URL;
 }
 

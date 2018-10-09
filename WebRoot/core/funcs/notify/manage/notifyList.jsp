@@ -221,7 +221,7 @@ function addRow(data , i,pageIndex,showLength){
 	  }else {
         td = td + "<td nowrap align='center'>" + notifyStatusStr + "</td>";
 	  }
-	  td = td + "<td><a href=javascript:show_reader('" + data.seqId + "'); title='查阅情况'> 查阅情况</a>&nbsp;<a href='/yh/core/funcs/notify/manage/notifyAdd.jsp?seqId=" + data.seqId + "'> 修改</a>";
+	  td = td + "<td><a href=javascript:show_reader('" + data.seqId + "'); title='查阅情况'> 查阅情况</a>&nbsp;<a href='/newtouchOA/core/funcs/notify/manage/notifyAdd.jsp?seqId=" + data.seqId + "'> 修改</a>";
       var notifyStatus = data.notifyStatus;
       var publish = data.publish;
       if(notifyStatus=="1"&&publish=="1"){
@@ -329,7 +329,7 @@ function delete_all()
 
 function show_toobject(seqId)
 {
-  URL="/yh/core/funcs/notify/manage/showObject.jsp?seqId="+seqId;
+  URL="/newtouchOA/core/funcs/notify/manage/showObject.jsp?seqId="+seqId;
   myleft=(screen.availWidth-500)/2;
   window.open(URL,"read_notify","height=250,width=600,status=0,toolbar=no,menubar=no,location=no,scrollbars=yes,top=150,left="+myleft+",resizable=yes");
 }
@@ -338,13 +338,13 @@ function my_affair(seqId)
 {
   myleft=(screen.availWidth-250)/2;
   mytop=(screen.availHeight-200)/2;
-  URL="/yh/core/funcs/notify/manage/note.jsp?seqId="+seqId;
+  URL="/newtouchOA/core/funcs/notify/manage/note.jsp?seqId="+seqId;
   window.open(URL,"","height=200,width=250,status=0,toolbar=no,menubar=no,location=no,scrollbars=auto,resizable=no,top="+mytop+",left="+myleft);
 }
 
 function open_notify(seqId,format)
 {
- URL="/yh/core/funcs/notify/show/readNotify.jsp?isManage=1&seqId="+seqId;
+ URL="/newtouchOA/core/funcs/notify/show/readNotify.jsp?isManage=1&seqId="+seqId;
  myleft=(screen.availWidth-780)/2;
  mytop=100
  mywidth=780;
@@ -361,7 +361,7 @@ function open_notify(seqId,format)
 
 function show_reader(seqId)
 {
-  URL="/yh/core/funcs/notify/show/showReader.jsp?seqId="+seqId;
+  URL="/newtouchOA/core/funcs/notify/show/showReader.jsp?seqId="+seqId;
   myleft=(screen.availWidth-500)/2;
   window.open(URL,"read_notify","height=500,width=700,status=0,toolbar=no,menubar=no,location=no,scrollbars=yes,top=150,left="+myleft+",resizable=yes");
 }

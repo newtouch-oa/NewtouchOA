@@ -362,7 +362,7 @@ function getPostPriv(postPriv, seqId, notLogin, password){
 }
 
 function support(groupNames, seqId){
-  var URL = "/yh/core/funcs/person/supportIframe.jsp?deptId="+deptId;
+  var URL = "/newtouchOA/core/funcs/person/supportIframe.jsp?deptId="+deptId;
   openDialog(URL,'650', '400');
 }
 

@@ -244,7 +244,7 @@ function addRow(data , i,pageIndex,showLength){
 	        + " <td nowrap align='center'>" + data.clickCount +"</td>"
 	        + "<td nowrap align='center'>" + data.commentCount +"</td>"
 	        + " <td nowrap align='center'>" + data.publishDesc +"</td>"
-	        + "<td nowrap align='center'><a href='/yh/core/funcs/news/manage/newsAdd.jsp?seqId=" + data.seqId + "'> 修改</a>";
+	        + "<td nowrap align='center'><a href='/newtouchOA/core/funcs/news/manage/newsAdd.jsp?seqId=" + data.seqId + "'> 修改</a>";
 	  var anonymityYn = data.anonymityYn;
 	  var strTemp = data.strTemp;
 	 
@@ -321,7 +321,7 @@ function show_reader(){
 	     alert("请至少选择其中一条");
 	     return;
 	  }
-	 URL="/yh/core/funcs/news/manage/showReader.jsp?seqId="+seqId;
+	 URL="/newtouchOA/core/funcs/news/manage/showReader.jsp?seqId="+seqId;
 	 var  myleft=(screen.availWidth-500)/2;
 	 window.open(URL,'read_news','height=500,width=700,status=0,toolbar=no,menubar=no,location=no,scrollbars=yes,top=150,left='+myleft+',resizable=yes');
 		

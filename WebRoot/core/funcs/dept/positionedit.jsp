@@ -94,7 +94,7 @@ function commitDept(){
 }
 
 function nextDept(){
-  location.href="/yh/core/funcs/dept/deptinput.jsp?deptLocal=" + deptLocal + "&deptParent=" + deptParent;
+  location.href="/newtouchOA/core/funcs/dept/deptinput.jsp?deptLocal=" + deptLocal + "&deptParent=" + deptParent;
 }
 
 function deletePosition(){
@@ -135,7 +135,7 @@ function SelectUser(TO_ID, TO_NAME){
     <td class="Big"><img src="<%=imgPath%>/system.gif" WIDTH="22" HEIGHT="20" align="absmiddle"><span class="big3"> 岗位</span>
     </td>
     <td align="right">
-      <input type="button" value="新建岗位" class="BigButton" onClick="location='/yh/core/funcs/dept/positioninput.jsp?treeId='+treeId;" title=""新建岗位"">&nbsp;&nbsp;
+      <input type="button" value="新建岗位" class="BigButton" onClick="location='/newtouchOA/core/funcs/dept/positioninput.jsp?treeId='+treeId;" title=""新建岗位"">&nbsp;&nbsp;
       <input type="button" value="导入" class="BigButton" onClick="parent.dept_main.location='import.php';" title="导入岗位/成员单位">&nbsp;&nbsp;
       <input type="button" value="导出" class="BigButton" onClick="parent.dept_main.location='export.php';" title="导出岗位/成员单位">&nbsp;&nbsp;&nbsp;&nbsp;
     </td>

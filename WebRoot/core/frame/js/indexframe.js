@@ -193,7 +193,7 @@ function dispParts(src){
       }
     }
   }
-  //$('main-body-parts').contentWindow.location = "/yh/core/funcs/menu/menu.jsp";
+  //$('main-body-parts').contentWindow.location = "/newtouchOA/core/funcs/menu/menu.jsp";
 }
 
 /**

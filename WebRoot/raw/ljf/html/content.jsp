@@ -42,7 +42,7 @@ function confirmDel() {
 </script>
 </head>
   <body bgcolor="#89a3e4" text="#ff00">
-    <a href="/yh/raw/ljf/html/add.jsp" target="contentFrame">添加CODE_CLASS</a>
+    <a href="/newtouchOA/raw/ljf/html/add.jsp" target="contentFrame">添加CODE_CLASS</a>
     <table border="1">
     <%
       List<YHCodeClass> codeList = null;

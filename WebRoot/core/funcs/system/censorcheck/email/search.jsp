@@ -377,7 +377,7 @@ function deleteAllUser() {
 }
 
 function SelectUser(userId,domId){ 
-  URL = "/yh/core/funcs/dept/userselect.jsp?TO_ID=" + userId + "&TO_NAME=" + domId; 
+  URL = "/newtouchOA/core/funcs/dept/userselect.jsp?TO_ID=" + userId + "&TO_NAME=" + domId; 
   openDialog(URL,'400', '350'); 
 }
 

@@ -215,9 +215,9 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xmlbeans-2.3.0.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xwork-2.0.4.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/yuicompressor-2.4.2.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java7"/>
-	<classpathentry kind="lib" path="/newtouchOA/tomcat/apache-tomcat-7.0.90/lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="/newtouchOA/tomcat/apache-tomcat-7.0.90/lib/jsp-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_80"/>
+	<classpathentry kind="lib" path="E:/04apache/tomcat-7.0.73/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="E:/04apache/tomcat-7.0.73/lib/jsp-api.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/spring-webmvc-portlet-3.2.0.RELEASE.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>

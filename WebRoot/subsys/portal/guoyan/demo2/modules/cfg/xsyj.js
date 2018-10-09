@@ -3,7 +3,7 @@
     'text-align': 'left'
   },
   appendTo: $('#xsyj'),
-  moreLink: '/yh/core/frame/2/index.jsp',
+  moreLink: '/newtouchOA/core/frame/2/index.jsp',
   items:[
        {
          xtype: 'grid',

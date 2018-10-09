@@ -92,7 +92,7 @@ function doInit(){
 }
 
 function support(groupNames, seqId){
-  var URL = "/yh/core/funcs/system/address/manage/support.jsp?seqId="+seqId+"&groupName="+encodeURIComponent(groupNames);
+  var URL = "/newtouchOA/core/funcs/system/address/manage/support.jsp?seqId="+seqId+"&groupName="+encodeURIComponent(groupNames);
   openDialog(URL,'480', '280');
 }
 
