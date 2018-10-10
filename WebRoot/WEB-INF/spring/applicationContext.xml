@@ -11,13 +11,15 @@
             <value>com.mysql.jdbc.Driver</value>
         </property>
         <property name="jdbcUrl">
-            <value>jdbc:mysql://localhost:3306/sx_oa</value>
+        	<value>jdbc:mysql://192.168.1.4:3306/xz_oa</value>
+            <!-- <value>jdbc:mysql://localhost:3306/sx_oa</value> -->
         </property>
         <property name="user">
             <value>root</value>
         </property>
         <property name="password">
-            <value>123456</value>
+            <!-- <value>123456</value> -->
+            <value>oa1324!@#</value>
         </property>
  
  <!--连接池中保留的最小连接数。-->

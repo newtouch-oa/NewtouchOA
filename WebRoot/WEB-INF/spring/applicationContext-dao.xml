@@ -7,16 +7,16 @@
 			<value>com.mysql.jdbc.Driver</value>
 		</property>
 		<property name="url">
-			<!-- <value>jdbc:mysql://59.80.40.147:5907/xz_oa?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;transformedBitIsBoolean=true -->
-			<value>jdbc:mysql://localhost:3306/sx_oa?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;transformedBitIsBoolean=true
+			<value>jdbc:mysql://192.168.1.4:3306/xz_oa?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;transformedBitIsBoolean=true
+			<!-- <value>jdbc:mysql://localhost:3306/sx_oa?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;transformedBitIsBoolean=true -->
 			</value>
 		</property>
 		<property name="username">
 			<value>root</value>
 		</property>
 		<property name="password">
-			<!-- <value>oa1324!@#</value> -->
-			<value>123456</value>
+			<value>oa1324!@#</value>
+			<!-- <value>123456</value> -->
 		</property>
 	</bean>
 	 
