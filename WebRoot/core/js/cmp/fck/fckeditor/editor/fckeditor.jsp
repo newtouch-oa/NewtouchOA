@@ -101,7 +101,7 @@ LoadScript( '../fckconfig.js' ) ;
 
 	</script>
 		<script type="text/javascript">
-	LoadScript('/yh/core/funcs/workflow/flowform/editor/plugins.js');
+	LoadScript('/newtouchOA/core/funcs/workflow/flowform/editor/plugins.js');
 	</script>
 	<script type="text/javascript">
 

@@ -49,9 +49,9 @@ function commitDept(){
 	  var curNode = curTree.getNode(treeId);
 	  curNode.name = $F('word');
 	  if(prcsJson[0].typeFlag=='0'){
-	    curNode.imgAddress = "/yh/core/styles/style1/img/dtree/folder.gif";
+	    curNode.imgAddress = "/newtouchOA/core/styles/style1/img/dtree/folder.gif";
 	  }else{
-	    curNode.imgAddress = "/yh/core/styles/style1/img/dtree/file.jpg";
+	    curNode.imgAddress = "/newtouchOA/core/styles/style1/img/dtree/file.jpg";
 	  }
       curTree.updateNode(curNode.nodeId,curNode); 
       show.style.display="";
