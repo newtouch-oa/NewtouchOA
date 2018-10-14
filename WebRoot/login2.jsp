@@ -1,71 +1,57 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="/core/inc/header.jsp"%>
 
-<%@ page import="yh.core.funcs.system.act.YHSystemAct"%>
+<%@ page import="yh.core.funcs.system.act.YHSystemAct" %>
 <%
-	String useUsbKeyStr = (String) request.getAttribute("useUsbKey");
-	String secKeyUserStr = (String) request.getAttribute("secKeyUser");
-	String verificationCodeStr = (String) request.getAttribute("verificationCode");
-	String ieTitle = (String) request.getAttribute("ieTitle");
-	String useYHErpStr = YHSysProps.getString("useYHErp");
+String useUsbKeyStr = (String)request.getAttribute("useUsbKey");
+String secKeyUserStr = (String)request.getAttribute("secKeyUser");
+String verificationCodeStr = (String)request.getAttribute("verificationCode");
+String ieTitle = (String)request.getAttribute("ieTitle");
+String useYHErpStr = YHSysProps.getString("useYHErp");
 
-	if (YHUtility.isNullorEmpty(ieTitle)) {
-		ieTitle = StaticData.SOFTTITLE;
-	}
+if (YHUtility.isNullorEmpty(ieTitle)) {
+  ieTitle = StaticData.SOFTTITLE;
+}
 
-	if (YHUtility.isNullorEmpty(useUsbKeyStr) || YHUtility.isNullorEmpty(secKeyUserStr)) {
-		request.getRequestDispatcher("/yh/core/funcs/system/act/YHSystemAct/prepareLoginIn.act")
-				.forward(request, response);
-		return;
-	}
+if (YHUtility.isNullorEmpty(useUsbKeyStr) || YHUtility.isNullorEmpty(secKeyUserStr)) {
+  request.getRequestDispatcher("/yh/core/funcs/system/act/YHSystemAct/prepareLoginIn.act").forward(request, response);
+  return;
+}
 
-	boolean useUsbKey = "1".equals(useUsbKeyStr);
-	boolean secKeyUser = "1".equals(secKeyUserStr);
-	boolean useYHErp = "1".equals(useYHErpStr);
-	boolean verificationCode = "1".equals(verificationCodeStr);
+boolean useUsbKey = "1".equals(useUsbKeyStr);
+boolean secKeyUser = "1".equals(secKeyUserStr);
+boolean useYHErp = "1".equals(useYHErpStr);
+boolean verificationCode = "1".equals(verificationCodeStr);
 
-	Integer randomInt = (Integer) request.getSession().getAttribute("RANDOM_NUMBER");
 
-	int randomNum = 123456;
-	if (randomInt != null) {
-		randomNum = randomInt;
-	}
-	String template = YHSystemAct.queryTemplate(request);
-	template = contextPath + "/core/templates/" + template;
+
+Integer randomInt = (Integer)request.getSession().getAttribute("RANDOM_NUMBER");
+
+int randomNum = 123456;
+if (randomInt != null) {
+  randomNum = randomInt;
+}
+String template = YHSystemAct.queryTemplate(request);
+template = contextPath + "/core/templates/" + template;
 %>
 <html>
 <head>
-<title><%=ieTitle%></title>
+<title><%=ieTitle %></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="author" content="<%=StaticData.SOFTKEYWORD%>" />
 <meta name="keywords" content="<%=StaticData.SOFTKEYWORD%>" />
 <meta name="description" content="<%=StaticData.SOFTKEYWORD%>" />
-
-<link href="<%=contextPath%>/Wopop_files/style_log.css" rel="stylesheet"
-	type="text/css">
-<link rel="stylesheet" type="text/css"
-	href="<%=contextPath%>/Wopop_files/style.css">
-<link rel="stylesheet" type="text/css"
-	href="<%=contextPath%>/Wopop_files/userpanel.css">
-<link rel="stylesheet" type="text/css"
-	href="<%=contextPath%>/Wopop_files/jquery.ui.all.css">
-
 <style type="text/css">
 * {
-	margin: 0;
-	padding: 0;
+	margin:0;
+	padding:0;
 }
 </style>
-<link rel="stylesheet" type="text/css"
-	href="<%=contextPath%>/core/styles/style1/css/index1.css" />
-<script type="text/javascript"
-	src="<%=contextPath%>/core/js/datastructs.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=contextPath%>/core/styles/style1/css/index1.css"/>
+<script type="text/javascript" src="<%=contextPath%>/core/js/datastructs.js"></script>
 <script type="text/javascript" src="<%=contextPath%>/core/js/sys.js"></script>
-<script type="text/javascript"
-	src="<%=contextPath%>/core/js/prototype.js"></script>
-<script type="text/javascript"
-	src="<%=contextPath%>/core/js/smartclient.js"></script>
+<script type="text/javascript" src="<%=contextPath%>/core/js/prototype.js"></script>
+<script type="text/javascript" src="<%=contextPath%>/core/js/smartclient.js"></script>
 <script type="text/javascript" src="<%=contextPath%>/core/js/tdPass.js"></script>
 <script type="text/javascript" src="<%=contextPath%>/core/js/rsa.js"></script>
 <script type="text/javascript">
@@ -173,7 +159,9 @@ function CheckForm(){
   return true;
 }
 
-<%if (useUsbKey) {%>
+<%
+if (useUsbKey) {
+%>
 /**
  * 用户名密码登录
  */
@@ -190,12 +178,15 @@ function showTdPassObject(){
   //document.getElementById("tdPassObject").innerHTML='<object id="tdPass" name="tdPass" CLASSID="clsid:0272DA76-96FB-449E-8298-178876E0EA89" CODEBASE="/yh/core/cntrls/tdPass.cab#Version=1,00,0000" BORDER="0" VSPACE="0" HSPACE="0" ALIGN="TOP" HEIGHT="0" WIDTH="0"></object>';
   //document.getElementById("installTdPass").style.display="none";
 }
-<%}%>
+<%
+}
+%>
 
 /**
  * 用户名密码登录
  */
 function loginNamePass() {
+
   var pars = $('loginForm').serialize() ;
   var url = contextPath + "/yh/core/funcs/system/act/YHSystemAct/doLoginIn.act";
   //$('layout').hide();
@@ -363,108 +354,84 @@ function doInit(){
 }
 
 function getLoginBg() {
-  		$('loginBg').setStyle({'backgroundImage':'url(<%=contextPath%>/yh/core/funcs/system/act/YHSystemAct/getLoginBg.act)'});
-	}
+  
+  $('loginBg').setStyle({'backgroundImage':'url(<%=contextPath%>/yh/core/funcs/system/act/YHSystemAct/getLoginBg.act)'});
+}
 
-	/**
-	 * 设置cookie
-	 */
-	function setCookie(name, value) {
-		var Days = 30;
-		var exp = new Date();
-		exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
-		document.cookie = name + "=" + escape(value) + ";path=/;expires="
-				+ exp.toGMTString();
-	}
+/**
+ * 设置cookie
+ */
+function setCookie(name,value){
+  var Days = 30;
+  var exp  = new Date();
+  exp.setTime(exp.getTime() + Days*24*60*60*1000);
+  document.cookie = name + "="+ escape (value) + ";path=/;expires=" + exp.toGMTString();
+}
 
-	/**
-	 * 读取cookie
-	 */
-	function getCookie(name) {
+/**
+ * 读取cookie
+ */
+function getCookie(name){
+  
+  var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));
+  if (arr != null){
+    return unescape(arr[2]);
+  }
+  else{
+    return null;
+  }
+  return null;
+}
 
-		var arr = document.cookie.match(new RegExp("(^| )" + name
-				+ "=([^;]*)(;|$)"));
-		if (arr != null) {
-			return unescape(arr[2]);
-		} else {
-			return null;
-		}
-		return null;
-	}
+/**
+ * 进销存单点登录
 
-	/**
-	 * 进销存单点登录
-
-	 */
-	function yherpSso(userinfo) {
-		var srcs = [ "/yherp/login.do?userName=", userinfo.userName,
-				"&action_flag=login_check_depend_on_oa_ea&seqId=",
-				userinfo.seqId, "&deptId=", userinfo.deptId ];
-		var url = srcs.join("");
-		try {
-			var json = getJsonRsAsyn(url);
-		} catch (e) {
-
-		}
-	}
+ */
+function yherpSso(userinfo) {
+  var srcs = [
+              "/yherp/login.do?userName=",
+              userinfo.userName,
+              "&action_flag=login_check_depend_on_oa_ea&seqId=",
+              userinfo.seqId,
+              "&deptId=",
+              userinfo.deptId];
+  var url = srcs.join("");
+  try {
+    var json = getJsonRsAsyn(url);
+  } catch (e){
+    
+  }
+}
 </script>
 </head>
-
-
-
-<body onload="doInit()" class="login" mycollectionplug="bind">
+<body onload="doInit()">
 	<form method="post" id='loginForm'>
-		<div class="login_m">
-			<div class="login_logo">
-				<img src="<%=contextPath%>/Wopop_files/logo.png" width="196"
-					height="46">
-			</div>
+	<div class="loginbox">
+	  <div class="loginlogo"><img src="<%=contextPath%>/core/styles/style1/img/systop/logo_03.jpg" /></div>
+	  <div class="loginbg">
+		<div class="loginmain">
+		  <div class="loginleft"><img src="<%=contextPath%>/core/styles/style1/img/systop/login_ptoto.png" /></div>
+		  <div class="loginright">
+			<h1>用户登录 / USER LOGIN</h1>
 			<ul>
-			<div class="login_boder">
-
-				<div class="login_padding" id="login_model">
-
-					<h2>用户名</h2>
-					<label> <input type="text" name="userName" id="userName"
-						class="txt_input txt_input2">
-					</label>
-					<h2>密     码</h2>
-					<label> <input type="password" name="pwd" id="pwd"
-						class="txt_input">
-					</label>
-					
-					<div class="rem_sub">
-					    <label>
-						      <a class="sub_button" href="javascript:doLogin();" id="btnLogin" >
-						      		<div class="rem_sub_l" style="width:145px;position:absolute; left:647px;top:370px">
-						      		<img src="<%=contextPath%>/Wopop_files/IMG_0697.png" width="306" height="35" vertical-align="center">
-						      		</div>
-						      </a>
-						</label>
-						<%
-						if (useUsbKey) {
-						%>
-						  <div id="tdPassObject" style="display:none;"><object id="tdPass" name="tdPass" CLASSID="clsid:0272DA76-96FB-449E-8298-178876E0EA89" CODEBASE="/yh/core/cntrls/tdPass.cab#Version=1,00,0000" BORDER="0" VSPACE="0" HSPACE="0" ALIGN="TOP" HEIGHT="0" WIDTH="0"></object></div>
-						  <input type="hidden" name="KEY_SN" id="KEY_SN" value="">
-						  <input type="hidden" name="KEY_USER" id="KEY_USER" value="">
-						  <input type="hidden" name="KEY_DIGEST" id="KEY_DIGEST" value="">
-						<%
-						}
-						%>
-					</div>
-					
-				</div>
-
-			</div>
-				
+			  <li class="logininput icon01"><input type="text" name="userName" id="userName" tabindex="1" value="admin_OA" /></li>
+			  <li class="logininput icon02"><input type="password" name="pwd" id="pwd" value="1qaz2wsx" tabindex="2"/></li>
+			  <li><a href="javascript:doLogin();" id="btnLogin" >登 录</a></li>
+	<%
+	if (useUsbKey) {
+	%>
+	  <div id="tdPassObject" style="display:none;"><object id="tdPass" name="tdPass" CLASSID="clsid:0272DA76-96FB-449E-8298-178876E0EA89" CODEBASE="/yh/core/cntrls/tdPass.cab#Version=1,00,0000" BORDER="0" VSPACE="0" HSPACE="0" ALIGN="TOP" HEIGHT="0" WIDTH="0"></object></div>
+	  <input type="hidden" name="KEY_SN" id="KEY_SN" value="">
+	  <input type="hidden" name="KEY_USER" id="KEY_USER" value="">
+	  <input type="hidden" name="KEY_DIGEST" id="KEY_DIGEST" value="">
+	<%
+	}
+	%>
 			</ul>
-			<!--login_boder end-->
+		  </div>
 		</div>
-		<!--login_m end-->
+	  </div>
+	</div>
 	</form>
-
-
 </body>
-
-
 </html>

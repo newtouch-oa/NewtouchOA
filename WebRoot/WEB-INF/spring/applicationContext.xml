@@ -11,7 +11,7 @@
             <value>com.mysql.jdbc.Driver</value>
         </property>
         <property name="jdbcUrl">
-        	<value>jdbc:mysql://192.168.1.4:3306/xz_oa</value>
+        	<value>jdbc:mysql://59.80.40.147:5907/xz_oa</value>
             <!-- <value>jdbc:mysql://localhost:3306/sx_oa</value> -->
         </property>
         <property name="user">

@@ -4,14 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class StaticData {
-public static final String SOFTTITLE="ps火星智能管理平台";
-public static final String SOFTTITLE_SHORT="ps火星科技";
-public static final String SOFTCOMPANY="ps火星科技有限公司";
-public static final String SOFTCOMPANY_SHORTNAME="ps火星ps火星";
-public static final String SOFTKEYWORD="ps火星软件ERP,JCRM,ZOA,ZCM,进销存";
+public static final String SOFTTITLE="新致软件";
+public static final String SOFTTITLE_SHORT="新致软件";
+public static final String SOFTCOMPANY="新致软件科技有限公司";
+public static final String SOFTCOMPANY_SHORTNAME="新致软件";
+public static final String SOFTKEYWORD="新致软件ERP,JCRM,ZOA,ZCM,进销存";
 
 //public static  String VERSIONDESC="PSSDSS.COM协同办公ERP系统";
-public static  String VERSIONDESC="诚信源码铺子协同办公ERP系统";
+public static  String VERSIONDESC="新致软件ERP系统";
 public static Map versionMap=new HashMap();
 //public static final String SOFTVERSION="A6-CERP*";
 static{

@@ -121,12 +121,13 @@ public class YHRequestFilter implements Filter {
 		long t1 = System.currentTimeMillis();
 		chain.doFilter(request, response);
 		long t2 = System.currentTimeMillis();
-		if ((t2 - t1) > Long.parseLong(YHSysProps.getProp("time"))) {
-			if ((qUri.endsWith(".jsp") || qUri.endsWith(".act"))) {
-				log.debug("time:" + (t2 - t1) + "ms requestURI:" + qUri);
+		if(!"".equals(YHSysProps.getProp("time"))) {
+			if ((t2 - t1) > Long.parseLong(YHSysProps.getProp("time"))) {
+				if ((qUri.endsWith(".jsp") || qUri.endsWith(".act"))) {
+					log.debug("time:" + (t2 - t1) + "ms requestURI:" + qUri);
+				}
 			}
 		}
-
 	}
 
 	/**
