@@ -416,8 +416,8 @@ function getLoginBg() {
 	<form method="post" id='loginForm'>
 		<div class="login_m">
 			<div class="login_logo">
-				<img src="<%=contextPath%>/Wopop_files/logo.png" width="196"
-					height="46">
+				<img src="<%=contextPath%>/Wopop_files/login.png" width="296"
+					height="80">
 			</div>
 			<ul>
 			<div class="login_boder">
