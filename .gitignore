@@ -6,15 +6,4 @@
 # *~
 
 target
-IM
-.settings
-.classpath
-.project
-logroot
-Thumbs.db
-.idea
-.iml
-*.~sql
-*.~pck
 /target/
-/IM/

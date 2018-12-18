@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="newtouchOA:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="newtouchOA.war">
+      <element id="artifact" artifact-name="newtouchOA:war exploded" />
+    </root>
+  </artifact>
+</component>
