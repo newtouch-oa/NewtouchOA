@@ -754,11 +754,11 @@
             <version>1.0</version>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>jcom</groupId>
             <artifactId>jcom</artifactId>
             <version>2.2.4</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.apache.axis</groupId>

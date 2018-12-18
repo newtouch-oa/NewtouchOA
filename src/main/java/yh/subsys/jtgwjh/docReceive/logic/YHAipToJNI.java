@@ -170,10 +170,10 @@ public class YHAipToJNI {
   /**
    * 处理上传附件，脱密下载
    * 
-   * @param request
-   *          HttpServletRequest
-   * @param 脱密模版保存路径
-   *          ：String modulPath 下载文件夹：String unloadPath
+   * @param
+   *          HttpServletRequest request
+   * @param
+   *          ：String modulPath 下载文件夹：String unloadPath 脱密模版保存路径
    * @return
    * @throws Exception
    */
@@ -338,10 +338,10 @@ public class YHAipToJNI {
    * 
    * 转存
    * 
-   * @param request
-   *          HttpServletRequest
-   * @param 脱密模版保存路径
-   *          ：String modulPath 下载文件夹：String unloadPath
+   * @param
+   *          : request HttpServletRequest
+   * @param
+   *          ：String modulPath 下载文件夹：String unloadPath 脱密模版保存路径
    * @return
    * @throws Exception
    */

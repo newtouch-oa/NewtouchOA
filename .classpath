@@ -1,54 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_79">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="src/main/crmsrc"/>
 	<classpathentry kind="src" output="target/classes" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+	<classpathentry kind="src" path="src/main/oaSpring"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_79">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/axiom.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/bjcaticketsso_For_P12.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-commons-attributes-api.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-commons-attributes-compiler.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-jaas.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-jacc-1_0-fr.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-jakarta-oro.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-jboss-archive-browsing.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-jdbc2_0-stdext.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-jsmartcom_zh_CN.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-sqljdbc.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-sqljdbc4.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/crm-xerces-2.6.2.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/freemarker-2.3.8.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jspSmartUpload.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/kaptcha-2.3.2.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/metadata-extractor-2.3.1.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/Oracle.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/poi-3.6-20091214.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/seamoonotp.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/SecEngineDeal.jar"/>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/SrvSealUtil.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

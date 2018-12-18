@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: regexp:regexp:1.2">
+    <CLASSES>
+      <root url="jar://D:/rep/regexp/regexp/1.2/regexp-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/rep/regexp/regexp/1.2/regexp-1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/rep/regexp/regexp/1.2/regexp-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -2,10 +2,6 @@ package yh.subsys.oa.vmeet.act;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import jp.ne.so_net.ga2.no_ji.jcom.IDispatch;
-import jp.ne.so_net.ga2.no_ji.jcom.ReleaseManager;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import java.io.BufferedReader;
@@ -15,8 +11,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
 
@@ -32,7 +26,8 @@ public class PPTUtil
 	
 	private static final Log log = LogFactory.getLog(PPTUtil.class);
 	/**
-	 * @param fileName 打开本地要转换的PPT文件的路径
+	 * @param fileName 打开本地要转换的PPT文件的路径
+
 	 * @param outputDir 输出目录
 	 * @return
 	 */
